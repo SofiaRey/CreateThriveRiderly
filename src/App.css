@@ -5,6 +5,7 @@ body {
   font-family: "Roboto", sans-serif;
   color: #3a3a41;
   font-size: 14px !important;
+  overflow-x: hidden;
 }
 
 h1 {
