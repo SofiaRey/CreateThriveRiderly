@@ -8,6 +8,10 @@ body {
   overflow-x: hidden;
 }
 
+#root {
+  width: 100%;
+}
+
 h1 {
   font-size: 23px !important;
 }
@@ -32,6 +36,9 @@ h1 {
 
 .navbar-nav .dropdown-menu {
   position: absolute !important;
+}
+.dropdown-menu {
+  min-width: 7rem !important;
 }
 
 .list {
