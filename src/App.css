@@ -1,38 +1,152 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("https://fonts.googleapis.com/css?family=Russo+One");
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #3a3a41;
+  font-size: 14px !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  font-size: 23px !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar {
+  min-height: 80px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.nav {
+  width: 100%;
+  background-color: white;
+}
+
+.navTitle {
+  font-family: "Russo One", sans-serif;
+  font-size: 28px !important;
+}
+
+.navbar-collapse {
+  flex-grow: 0 !important;
+}
+
+.navbar-nav .dropdown-menu {
+  position: absolute !important;
+}
+
+.list {
+  border: none !important;
+}
+
+li {
+  list-style-type: none;
+}
+
+.INumber,
+.cardText,
+.cardText a,
+.cardSettings a {
+  color: #5377f2;
+}
+
+.listTitle {
+  color: #93939f;
+  height: 57px;
+}
+
+.listRow {
+  width: 100%;
+  background-color: #f8f8f9;
+}
+
+.cardCont {
+  border-radius: 10px;
+  border: none;
+  background-color: white;
+}
+
+.navItem {
+  font-size: 14px !important;
+}
+
+.list-group-item {
+  height: 56px;
+}
+
+.statusPaid {
+  color: #70bfaa;
+}
+
+.btn-primary {
+  background-color: #5377f2 !important;
+  border: none !important;
+  height: 35px;
+  width: 153px;
+}
+
+.cardSettings {
+  border: none !important;
+  background-color: #f8f8f9 !important;
+  color: #93939f;
+  height: 116px;
+  width: 214px !important;
+}
+
+.cardSettings a {
+  text-decoration: none;
+}
+
+.footer {
+  height: 248px;
+  background-color: #3a3a41;
+  font-size: 12px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.brandTitle {
+  font-family: "Russo One", sans-serif;
+  font-size: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.sloganFooter {
+  width: 203px;
+}
+
+.titleFooter {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.footerItem {
+  margin-bottom: 10px;
+}
+
+.socialMedia {
+  height: 50px;
+  background-color: #2a2a30;
+}
+
+.socialMedia p {
+  font-size: 10px;
+}
+
+@media only screen and (max-width: 576px) {
+  body {
+    font-size: 12px !important;
   }
-  to {
-    transform: rotate(360deg);
+
+  .btn-primary {
+    width: 100px;
+  }
+
+  .footer {
+    height: 300px;
+  }
+
+  .titleFooter {
+    margin-bottom: 3px;
+  }
+
+  .footerItem {
+    margin-bottom: 0;
   }
 }
