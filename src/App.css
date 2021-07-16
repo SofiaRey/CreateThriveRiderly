@@ -137,6 +137,10 @@ li {
   font-size: 10px;
 }
 
+.emailSm {
+  display: none;
+}
+
 @media only screen and (max-width: 576px) {
   body {
     font-size: 12px !important;
@@ -167,5 +171,14 @@ li {
 
   .list {
     overflow-x: scroll;
+  }
+
+  .emailMd {
+    display: none;
+  }
+
+  .emailSm {
+    display: inline-block;
+    font-size: 10px;
   }
 }

@@ -157,7 +157,8 @@ function App() {
           <div className="col-4">
             <p className="titleFooter">Quick Contact</p>
             <li className="footerItem">Phone: (+598) 99 123 456</li>
-            <li className="footerItem">Email: myaccount@riderly.com</li>
+            <li className="footerItem emailMd">Email: myaccount@riderly.com</li>
+            <li className="footerItem emailSm">myaccount@riderly.com</li>
             <li className="footerItem">Hours: Mon-Fri 8am – 7pm</li>
           </div>
         </div>
