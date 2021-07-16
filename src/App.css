@@ -149,4 +149,15 @@ li {
   .footerItem {
     margin-bottom: 0;
   }
+
+  .listTitle {
+    width: 120% !important;
+  }
+  .tableRows {
+    width: 120% !important;
+  }
+
+  .list {
+    overflow-x: scroll;
+  }
 }

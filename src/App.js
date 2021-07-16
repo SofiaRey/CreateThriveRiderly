@@ -82,7 +82,9 @@ function App() {
               <div className="col-3 col-md-2 align-self-center">Amount</div>
               <div className="col-3 col-md-2 align-self-center">Status</div>
             </Card.Header>
-            <ListGroup variant="flush">{list}</ListGroup>
+            <ListGroup className="tableRows" variant="flush">
+              {list}
+            </ListGroup>
           </Card>
         </div>
       </Row>

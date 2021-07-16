@@ -44,7 +44,7 @@ Because of a matter of time, I had to prioritize tasks and I was not able to mak
 
 **Sofía Rey** - [LinkedIn](https://www.linkedin.com/in/sof%C3%ADa-rey-se/)
 
-# Documentation
+# 📃 Documentation
 
 1. This project started with using a [Create React App](https://github.com/facebook/create-react-app).
 2. After that, I installed the required libraries which were: [bootstrap](https://www.npmjs.com/package/bootstrap) and [react-bootstrap](https://www.npmjs.com/package/react-bootstrap).
